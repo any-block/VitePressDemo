@@ -70,3 +70,9 @@ export default defineConfig({
 ```typescript
 $ pnpm docs:dev
 ```
+
+> [!warning]
+> 
+> 注意，构建出来的只有对应的dom结构，而没有样式。因为纯markdown-it插件是不含样式的（除非用内联样式），自己引用一下就好
+> 
+> 对应的样式位置：`./node_modules/any-block-converter-markdown-it/src/style/styles.scss`
