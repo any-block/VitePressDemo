@@ -1,5 +1,9 @@
 # README
 
+详见: https://github.com/any-block/any-block
+
+这里是上述仓库的markdown-it版本在vitepress上部署的项目demo
+
 ## 构建该demo项目
 
 ```typescript
