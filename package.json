@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "markdown-it-any-block": "^3.3.3",
+    "markdown-it-any-block": "3.3.7-beta2",
     "vitepress": "^1.6.4"
   },
   "scripts": {

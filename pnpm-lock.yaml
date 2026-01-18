@@ -9,8 +9,8 @@ importers:
   .:
     devDependencies:
       markdown-it-any-block:
-        specifier: ^3.3.3
-        version: 3.3.3(markdown-it@14.1.0)
+        specifier: 3.3.7-beta2
+        version: 3.3.7-beta2(markdown-it@14.1.0)
       vitepress:
         specifier: ^1.6.4
         version: 1.6.4(@algolia/client-search@5.45.0)(postcss@8.5.6)(search-insights@2.17.2)
@@ -680,8 +680,8 @@ packages:
   mark.js@8.11.1:
     resolution: {integrity: sha512-1I+1qpDt4idfgLQG+BNWmrqku+7/2bi5nLf4YwF8y8zXvmfiTBY3PV3ZibfrjBueCByROpuBjLLFCajqkgYoLQ==}
 
-  markdown-it-any-block@3.3.3:
-    resolution: {integrity: sha512-It3VdS3ocWd7398nnAABx9AFy9K/bzG26fO6y4SJ4ocOVoFldomTLRYLPYJgaucvD4RF0FJhsonTcUOL85TYuQ==}
+  markdown-it-any-block@3.3.7-beta2:
+    resolution: {integrity: sha512-F6fNdb7VjFYsiRxzCnjBawLnWe5YLlpXroupGPxgC3XQnXGXzi0omqX0tk8bhjDan9JE/EJ19a68Qam5vRQVgg==}
     peerDependencies:
       markdown-it: ^14.1.0
 
@@ -933,6 +933,7 @@ packages:
   whatwg-encoding@3.1.1:
     resolution: {integrity: sha512-6qN4hJdMwfYBtE3YBTTHhoeuUrDBPZmbQaxWAqSALV/MeEnR5z1xd8UKud2RAkFoPkmB+hli1TZSnyi84xz1vQ==}
     engines: {node: '>=18'}
+    deprecated: Use @exodus/bytes instead for a more spec-conformant and faster implementation
 
   whatwg-mimetype@4.0.0:
     resolution: {integrity: sha512-QaKxh0eNIi2mE9p2vEdzfagOKHCcj1pJ56EEHGQOVxp8r9/iszLUUV7v89x9O1p/T+NlTM5W7jW6+cz4Fq1YVg==}
@@ -1624,7 +1625,7 @@ snapshots:
 
   mark.js@8.11.1: {}
 
-  markdown-it-any-block@3.3.3(markdown-it@14.1.0):
+  markdown-it-any-block@3.3.7-beta2(markdown-it@14.1.0):
     dependencies:
       jsdom: 26.1.0
       markdown-it: 14.1.0

@@ -1,7 +1,10 @@
 import { defineConfig } from 'vitepress'
 
-import { ab_mdit, jsdom_init } from "markdown-it-any-block"
-jsdom_init()
+import {
+  ab_mdit,
+  jsdom_init,
+} from "markdown-it-any-block"
+jsdom_init(false)
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
