@@ -38,3 +38,9 @@ jobs:
         run: |-
           pnpm install
           pnpm run docs:build
+
+      - name: 部署文档
+        uses: JamesIves/github-pages-deploy-action@v4.7.3
+        with:
+          branch: gh-pages
+          folder: .vitepress/dist
