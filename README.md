@@ -56,6 +56,7 @@ jsdom_init()
 ...
 
 export default defineConfig({
+  // base: "/VitePressDemo/", // 该仓库由于部署在组织子项目中，所以还有这行的变动，你的项目不一定要加
   markdown: {
     config: (md) => {
       md.use(ab_mdit)

@@ -8,6 +8,7 @@ jsdom_init(false)
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/VitePressDemo/", // [!code hl]
   title: "My Awesome Project",
   description: "A VitePress Site",
   themeConfig: {
