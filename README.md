@@ -51,7 +51,7 @@ $ pnpm install -D markdown-it-any-block@latest
 
 ```typescript
 import { ab_mdit, jsdom_init } from "markdown-it-any-block"
-jsdom_init()
+jsdom_init(false)
 
 ...
 
@@ -78,6 +78,8 @@ export default defineConfig({
 
 4. 检查
 
-```typescript
+```bash
 $ pnpm docs:dev
+# 此时也可打开 http://localhost:8080/ 查看渲染是否正常
+# pnpm docs:build # 也可以进行编译检查
 ```
